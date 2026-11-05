@@ -1,0 +1,14 @@
+# Dependências diretas. Gere o lock com hashes:
+#   uv pip compile requirements.in --generate-hashes --python-version 3.12 -o requirements.txt
+# Instale com:
+#   pip install --require-hashes -r requirements.txt
+pywebview==6.2.1
+playwright
+cryptography
+argon2-cffi
+pydantic
+httpx
+loguru
+selectolax
+pyyaml
+pytest

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.spec
+.pytest_cache/
+# Nunca versionar dados locais
+*.db
+*.restockbak
+profiles/
+screenshots/
+logs/
+selectors.override.yaml
+tools/tailwindcss*

@@ -1,0 +1,33 @@
+produto:
+  titulo: ["#productTitle"]
+  preco: ["#corePrice_feature_div .a-price .a-offscreen", "#apex_desktop .a-price .a-offscreen", ".a-price .a-offscreen"]
+  disponibilidade: ["#availability", "#outOfStock"]
+  comprar_agora: ["#buy-now-button", "role=button[name=/comprar agora/i]"]
+  carrinho: ["#add-to-cart-button"]
+  vendedor: ["#merchantInfoFeature_feature_div", "#sellerProfileTriggerId", "#tabular-buybox"]
+  quantidade: ["#quantity"]
+login:
+  email: ["#ap_email"]
+  continuar: ["#continue"]
+  senha: ["#ap_password"]
+  entrar: ["#signInSubmit"]
+  otp: ["#auth-mfa-otpcode", "input[name='otpCode']"]
+conta:
+  pagamentos_url: "https://www.amazon.com.br/cpe/yourpayments/wallet"
+  enderecos_url: "https://www.amazon.com.br/a/addresses"
+checkout:
+  marcador: ["#checkout-main", "text=/finalizar pedido|revise seu pedido/i"]
+  alterar_endereco: ["text=/alterar/i >> nth=0"]
+  alterar_pagamento: ["text=/alterar/i >> nth=1"]
+  cartao_por_final: "text=/terminado em {final}|final {final}/i"
+  adicionar_cartao: ["text=/adicionar (um )?cartão/i"]
+  iframe_cartao: ["iframe[name*='ApxSecureIframe']", "iframe[src*='apx-security']"]
+  parcelas: ["select[name*='installment']", "role=combobox[name=/parcela/i]"]
+  cvv: ["input[name*='addCreditCardVerificationNumber']", "input[name*='cvv']"]
+  usar_pagamento: ["role=button[name=/usar esta forma de pagamento|continuar/i]"]
+  total: ["#subtotals-marketplace-table .grand-total-price"]
+  finalizar: ["#submitOrderButtonId input", "role=button[name=/finalizar pedido|fazer pedido/i]"]
+  confirmacao: ["text=/pedido (feito|realizado)|obrigado/i"]
+  numero_pedido: ["text=/\\d{3}-\\d{7}-\\d{7}/"]
+interrupcoes:
+  captcha: ["form[action*='validateCaptcha']", "text=/digite os caracteres/i"]
