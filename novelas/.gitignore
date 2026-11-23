@@ -1,0 +1,3 @@
+# Vídeos gerados (pesados e caros: guarde-os fora do git)
+saida/
+__pycache__/

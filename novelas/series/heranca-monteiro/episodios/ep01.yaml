@@ -1,0 +1,78 @@
+numero: 1
+titulo: "O Testamento"
+gancho_abertura: "Ela era só a filha da empregada…"
+legenda_tiktok: "Ele deixou 70% da fortuna pra filha da empregada… e ninguém sabia por quê 😱 #parte1"
+hashtags: [novela, minidrama, heranca, segredodefamilia, drama, novelinha, fyp, foryou]
+
+cenas:
+  - id: c1
+    duracao: 10
+    cenario: cemiterio
+    refs: [clara, vitoria]
+    figurantes: "A few mourners in black with umbrellas in the background, out of focus."
+    acao: >
+      Rainy funeral. Clara stands alone at the back of the crowd under a cheap
+      clear umbrella, eyes red, holding a single white rose. Vitória, in black
+      sunglasses and a black dress, walks up beside her, lowers her sunglasses
+      and looks her up and down with disgust. Close-up on Clara holding back
+      tears, then on Vitória's smirk.
+    falas:
+      - {t: 2.0, quem: vitoria, tom: "a cold, contemptuous whisper", texto: "O que a filha da empregada tá fazendo aqui?"}
+      - {t: 6.0, quem: clara, tom: "quiet, hurt but firm", texto: "Ele também era importante pra mim."}
+
+  - id: c2
+    duracao: 12
+    cenario: biblioteca
+    refs: [henrique, beatriz]
+    figurantes: "Rafael Monteiro, a 32-year-old man in a charcoal suit, and Vitória, a young blonde woman, sit on the sofa, seen from behind and the side."
+    acao: >
+      The will reading. Dr. Henrique stands behind the antique desk, puts on
+      his glasses and opens the leather folder. Beatriz sits in a green
+      leather armchair, perfectly composed, pearls gleaming. Slow push-in on
+      Henrique as he reads. Beatriz allows herself a tiny satisfied smile.
+    falas:
+      - {t: 1.0, quem: henrique, tom: "formal, grave", texto: "Testamento de Augusto Monteiro."}
+      - {t: 4.5, quem: henrique, tom: "formal, slowly", texto: "Deixo setenta por cento de todos os meus bens…"}
+      - {t: 9.0, quem: beatriz, tom: "impatient, cold", texto: "Continue, doutor."}
+
+  - id: c3
+    duracao: 12
+    cenario: biblioteca
+    refs: [clara, henrique]
+    figurantes: "Beatriz, Rafael and Vitória Monteiro react in the foreground, partly out of frame."
+    acao: >
+      Clara stands frozen in the library doorway holding a silver tray with
+      coffee cups. Dr. Henrique looks up from the document directly at her.
+      Dramatic zoom on Clara's face. She drops the tray: the cups shatter on
+      the wooden floor in slow motion. Shocked gasps in the room.
+    falas:
+      - {t: 1.0, quem: henrique, tom: "solemn, looking at Clara", texto: "…para Clara da Silva."}
+      - {t: 5.5, quem: vitoria, tom: "off-screen, shrieking", texto: "Isso é um absurdo!"}
+      - {t: 8.5, quem: clara, tom: "barely a whisper, in shock", texto: "Pra mim?"}
+
+  - id: c4
+    duracao: 10
+    cenario: sala_estar
+    refs: [beatriz, clara]
+    acao: >
+      Living room, night. Beatriz descends the grand marble staircase slowly
+      and stops one step above Clara so she looks down on her. She speaks
+      without raising her voice. Clara clenches her jaw, tears in her eyes,
+      but doesn't look away.
+    falas:
+      - {t: 1.5, quem: beatriz, tom: "icy calm, menacing", texto: "Você tem até amanhã pra sair da minha casa."}
+      - {t: 6.0, quem: clara, tom: "trembling but defiant", texto: "Essa casa agora também é minha."}
+
+  - id: c5
+    duracao: 10
+    cenario: cozinha
+    refs: [clara, socorro]
+    acao: >
+      Kitchen, late night, only the warm pendant lights on. Dona Socorro sits
+      at the small wooden table crying silently, holding an old photo face
+      down. Clara kneels in front of her and takes her hands. Socorro looks
+      into her daughter's eyes for a long beat. Final extreme close-up on
+      Clara's face as she understands. The music hits a dramatic sting.
+    falas:
+      - {t: 1.0, quem: clara, tom: "desperate, pleading", texto: "Mãe, por que ele deixou tudo pra mim?"}
+      - {t: 6.0, quem: socorro, tom: "a broken whisper", texto: "Porque ele era seu pai."}

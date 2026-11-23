@@ -1,0 +1,64 @@
+numero: 3
+titulo: "A Proposta"
+gancho_abertura: "Dois milhões pra ela desistir de tudo"
+legenda_tiktok: "Ela quase assinou… até ler a cláusula 7 😨 #parte3"
+hashtags: [novela, minidrama, heranca, segredodefamilia, drama, novelinha, fyp, foryou]
+
+cenas:
+  - id: c1
+    duracao: 12
+    cenario: biblioteca
+    refs: [beatriz, clara]
+    acao: >
+      Morning light in the library. Beatriz sits behind the patriarch's desk
+      as if it were hers. She slides a document and an expensive fountain pen
+      across the desk toward Clara, who stands in front of it.
+    falas:
+      - {t: 1.0, quem: beatriz, tom: "smooth, businesslike", texto: "Dois milhões de reais. Hoje."}
+      - {t: 5.5, quem: beatriz, tom: "condescending smile", texto: "Você assina a renúncia e some da nossa vida."}
+
+  - id: c2
+    duracao: 10
+    cenario: biblioteca
+    refs: [clara]
+    acao: >
+      Close-up of Clara. She looks at the check, then at the patriarch's
+      portrait above the fireplace. She picks up the pen. Her hand hovers
+      over the signature line, trembling. Tense ticking clock sound.
+    falas:
+      - {t: 3.0, quem: clara, tom: "inner voice-over, tired", texto: "Com isso a minha mãe nunca mais trabalha."}
+
+  - id: c3
+    duracao: 10
+    cenario: biblioteca
+    refs: [henrique, clara]
+    acao: >
+      The library door bursts open. Dr. Henrique strides in and places his
+      hand firmly over Clara's hand, stopping the pen right before it touches
+      the paper. Beatriz is seen out of focus in the foreground, furious.
+    falas:
+      - {t: 1.0, quem: henrique, tom: "commanding", texto: "Não assina."}
+      - {t: 4.0, quem: henrique, tom: "low, to Clara only", texto: "Antes, lê a cláusula sete."}
+
+  - id: c4
+    duracao: 10
+    cenario: biblioteca
+    refs: [clara, henrique]
+    acao: >
+      Clara flips through the will document. Insert extreme close-up of a
+      page of the document with the heading "CLÁUSULA 7" in bold. Clara's
+      eyes move across the lines and her face drains of color.
+    falas:
+      - {t: 2.0, quem: clara, tom: "reading slowly, whispering", texto: "Em caso de morte da herdeira…"}
+      - {t: 6.5, quem: clara, tom: "barely audible, terrified", texto: "…tudo passa para Beatriz Monteiro."}
+
+  - id: c5
+    duracao: 9
+    cenario: biblioteca
+    refs: [beatriz]
+    acao: >
+      Slow push-in on Beatriz behind the desk. She calmly picks up the
+      document Clara didn't sign, folds it, and smiles a slow, terrifying
+      smile directly at the camera. Lights dim. Ominous music sting.
+    falas:
+      - {t: 3.0, quem: beatriz, tom: "sweet and menacing", texto: "Que pena, querida. Era o jeito mais fácil."}

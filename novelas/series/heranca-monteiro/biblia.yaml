@@ -1,0 +1,109 @@
+# Bíblia da série — tudo o que precisa ficar IGUAL em todos os episódios.
+# Descrições visuais em inglês (o Omni Flash é avaliado em inglês);
+# falas em português do Brasil (vão entre aspas no prompt e viram legenda).
+
+serie:
+  titulo: "A Herança dos Monteiro"
+  slug: heranca-monteiro
+  logline: >
+    O patriarca de uma família rica de São Paulo morre e deixa 70% da fortuna
+    para Clara, a filha da empregada. A família quer expulsá-la da mansão —
+    até descobrir por que ele fez isso.
+  genero: família / herança / segredo
+  formato: "9:16, 50–75 s por episódio, 5 cenas de 9–15 s, gancho no fim de cada episódio"
+  publico: "mulheres 25–55, fãs de novela e de 'drama de CEO' no TikTok"
+
+# Estilo aplicado em TODOS os clipes.
+estilo: >
+  Photorealistic Brazilian telenovela, cinematic vertical 9:16 framing, shot on
+  a full-frame cinema camera with shallow depth of field, warm dramatic
+  lighting, rich colors, subtle film grain, emotional close-ups, natural
+  realistic acting and micro-expressions. All spoken dialogue is in Brazilian
+  Portuguese with a natural São Paulo accent, clear and audible. Subtle,
+  tense orchestral telenovela score under the dialogue. No subtitles, no
+  captions, no on-screen text, no logos, no watermarks.
+
+personagens:
+  clara:
+    nome: Clara
+    papel: protagonista, 24 anos, filha da governanta, cresceu na mansão
+    personalidade: doce, orgulhosa, inteligente; estuda Direito à noite
+    visual: >
+      Clara, a 24-year-old Brazilian woman with warm light-brown skin, long
+      wavy dark-brown hair usually in a low loose ponytail, expressive dark
+      brown eyes, thick natural eyebrows, a small beauty mark under her left
+      eye, slim build. She wears a simple light-blue cotton blouse with
+      rolled sleeves, dark jeans and small gold hoop earrings.
+    retrato_extra: "full-body shot standing in a marble hallway, hands holding a silver serving tray"
+  socorro:
+    nome: Dona Socorro
+    papel: governanta da mansão há 30 anos, mãe de Clara, guarda o segredo
+    personalidade: firme, protetora, fala pouco
+    visual: >
+      Dona Socorro, a 54-year-old Brazilian woman from the Northeast with
+      deep brown skin, short curly black hair with grey strands at the
+      temples, round kind face with tired eyes and laugh lines. She wears a
+      neat white housekeeper's uniform dress with a navy-blue apron and a
+      thin gold cross necklace.
+    retrato_extra: "full-body shot in a large elegant kitchen, arms crossed"
+  beatriz:
+    nome: Beatriz Monteiro
+    papel: viúva do patriarca, antagonista principal
+    personalidade: fria, elegante, calculista
+    visual: >
+      Beatriz Monteiro, a 58-year-old wealthy Brazilian woman with fair skin,
+      sharp cheekbones, a sleek platinum-blonde chin-length bob, cold grey
+      eyes and red lipstick. She wears an elegant fitted black dress, a
+      string of large white pearls and a black diamond ring.
+    retrato_extra: "full-body shot standing by a grand staircase, chin raised"
+  rafael:
+    nome: Rafael Monteiro
+    papel: filho mais velho, CEO da empresa da família, ambíguo
+    personalidade: ambicioso, controlado; começa contra Clara, depois hesita
+    visual: >
+      Rafael Monteiro, a 32-year-old Brazilian man with olive skin, short
+      neatly styled black hair, a trimmed short beard, strong jaw and intense
+      dark eyes, tall and athletic. He wears a tailored charcoal-grey suit,
+      white shirt with an open collar and a silver wristwatch.
+    retrato_extra: "full-body shot leaning against a desk in a wood-paneled office"
+  vitoria:
+    nome: Vitória Monteiro
+    papel: filha caçula, mimada, vilã cômica e venenosa
+    personalidade: impulsiva, invejosa, dramática
+    visual: >
+      Vitória Monteiro, a 26-year-old Brazilian woman with fair tanned skin,
+      very long straight honey-blonde hair, heavy glam makeup with winged
+      eyeliner and glossy pink lips. She wears a fitted designer cream
+      blazer dress, oversized gold jewelry and a luxury handbag.
+    retrato_extra: "full-body shot in a luxury living room holding a smartphone"
+  henrique:
+    nome: Dr. Henrique Prado
+    papel: advogado da família, executor do testamento, aliado secreto de Clara
+    personalidade: sério, íntegro, enigmático
+    visual: >
+      Dr. Henrique Prado, a 61-year-old Brazilian lawyer with light-brown
+      skin, short silver hair, a neat grey mustache and round tortoiseshell
+      glasses. He wears a navy-blue three-piece suit with a burgundy tie and
+      carries a brown leather folder.
+    retrato_extra: "full-body shot standing behind an antique desk holding documents"
+
+cenarios:
+  mansao_fachada: >
+    a grand white colonial-style mansion in the Jardins neighborhood of São
+    Paulo, tall iron gates, palm trees, wet stone driveway
+  biblioteca: >
+    an old-money mansion library with dark wood bookshelves, green leather
+    chesterfield sofas, a large antique desk, a portrait of an elderly
+    patriarch with a white beard above the fireplace, golden lamp light
+  cozinha: >
+    a large professional mansion kitchen with white marble counters, copper
+    pans hanging, warm pendant lights, a small wooden table in the corner
+  cemiterio: >
+    an upscale São Paulo cemetery on a rainy grey afternoon, black umbrellas,
+    white flowers on a dark wood coffin, marble tombstones
+  quarto_clara: >
+    a small simple bedroom in the staff wing of the mansion, single bed,
+    law books piled on a desk, a framed childhood photo, yellow lamp light
+  sala_estar: >
+    a luxurious living room with a double-height ceiling, a crystal
+    chandelier, white sofas, a grand marble staircase in the background

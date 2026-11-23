@@ -1,0 +1,69 @@
+numero: 2
+titulo: "Filha de Quem?"
+gancho_abertura: "A mãe dela guardou esse segredo por 24 anos"
+legenda_tiktok: "Ela descobriu quem é o pai… e alguém estava ouvindo atrás da porta 👀 #parte2"
+hashtags: [novela, minidrama, heranca, segredodefamilia, drama, novelinha, fyp, foryou]
+
+cenas:
+  - id: c1
+    duracao: 10
+    cenario: cozinha
+    refs: [clara, socorro]
+    acao: >
+      Same kitchen, continuing the night. Clara stands up abruptly and steps
+      back from her mother, shaking her head in disbelief. Socorro rises,
+      reaching for her.
+    falas:
+      - {t: 1.0, quem: clara, tom: "angry, disbelieving", texto: "Não. Você tá mentindo."}
+      - {t: 4.5, quem: socorro, tom: "pleading, crying", texto: "Eu prometi pra ele que nunca ia te contar."}
+
+  - id: c2
+    duracao: 12
+    cenario: cozinha
+    refs: [socorro, clara]
+    acao: >
+      Socorro turns over the old photo and hands it to Clara. Insert close-up
+      of a faded 1990s photograph: a young Socorro laughing on a beach next to
+      a handsome man in his late forties with a dark beard. Clara's hands
+      tremble holding it.
+    falas:
+      - {t: 2.0, quem: socorro, tom: "soft, nostalgic", texto: "Angra dos Reis, mil novecentos e noventa e nove."}
+      - {t: 7.0, quem: clara, tom: "whispering", texto: "Vinte e quatro anos… e ninguém me falou nada?"}
+
+  - id: c3
+    duracao: 10
+    cenario: cozinha
+    refs: [vitoria]
+    acao: >
+      Reverse angle: behind the half-open kitchen door, in the dark hallway,
+      Vitória presses herself against the wall, holding her smartphone up,
+      recording. Her eyes widen and a slow, evil smile spreads across her
+      face. Muffled voices from the kitchen.
+    falas:
+      - {t: 6.0, quem: vitoria, tom: "whispering to herself, delighted", texto: "Ah, mas agora eu te pego."}
+
+  - id: c4
+    duracao: 10
+    cenario: quarto_clara
+    refs: [clara]
+    acao: >
+      Clara's small bedroom. She sits on the bed holding the photo next to
+      the framed childhood picture of herself, comparing them. She looks at
+      her own reflection in a small mirror, touching her face, searching for
+      her father's features.
+    falas:
+      - {t: 3.0, quem: clara, tom: "quiet voice-over, inner thought", texto: "Eu tenho os olhos dele."}
+      - {t: 6.5, quem: clara, tom: "quiet, determined", texto: "Então eu não vou sair daqui."}
+
+  - id: c5
+    duracao: 10
+    cenario: sala_estar
+    refs: [vitoria, beatriz]
+    acao: >
+      Living room, night. Beatriz sits alone with a glass of red wine.
+      Vitória rushes in, out of breath, holding out her phone. Beatriz takes
+      it, watches the screen, and her face hardens. She slowly sets down the
+      wine glass. Dramatic music sting, freeze on Beatriz's cold eyes.
+    falas:
+      - {t: 1.0, quem: vitoria, tom: "excited, urgent", texto: "Mãe… você precisa ver isso."}
+      - {t: 7.0, quem: beatriz, tom: "low, chilling", texto: "Eu sempre soube."}
