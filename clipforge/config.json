@@ -1,0 +1,60 @@
+{
+  "idioma": "pt",
+  "parte_minutos": 15,
+  "whisper": {
+    "modelo": "small",
+    "device": "cpu",
+    "compute_type": "int8",
+    "beam_size": 1,
+    "vad_filter": true,
+    "word_timestamps": true
+  },
+  "llm": {
+    "modo": "heuristica",
+    "gemini": {
+      "modelos": ["gemini-3.6-flash", "gemini-3.1-flash-lite"],
+      "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent",
+      "timeout_s": 60,
+      "tentativas_429": 3
+    },
+    "ollama": {
+      "url": "http://127.0.0.1:11434",
+      "modelo": "qwen2.5:7b",
+      "timeout_s": 300
+    }
+  },
+  "presets": {
+    "auto":     {"min_s": 20, "max_s": 60},
+    "curtos":   {"min_s": 15, "max_s": 30},
+    "longos":   {"min_s": 45, "max_s": 90},
+    "rewards":  {"min_s": 62, "max_s": 110}
+  },
+  "render": {
+    "proporcao": "9:16",
+    "layout": "track",
+    "encoder": "libx264",
+    "preset_x264": "veryfast",
+    "crf": 20,
+    "loudnorm": true
+  },
+  "legenda": {
+    "fonte": "Arial Black",
+    "palavras_por_bloco": 3,
+    "maiusculas": true,
+    "cor_ativa": "amarelo",
+    "titulo_gancho": true
+  },
+  "fila": {
+    "horarios": ["12:00", "18:30", "21:00"]
+  },
+  "pastas": {
+    "entrada": "entrada",
+    "saida": "saida",
+    "cache": "cache",
+    "logs": "logs"
+  },
+  "ui": {
+    "host": "127.0.0.1",
+    "porta": 8765
+  }
+}

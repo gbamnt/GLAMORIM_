@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+*.spec
+# Chaves e configurações pessoais
+config.local.json
+# Mídia e resultados (só a estrutura de pastas é versionada)
+entrada/*
+!entrada/.gitkeep
+!entrada/_feito/
+!entrada/_erro/
+entrada/_feito/*
+!entrada/_feito/.gitkeep
+entrada/_erro/*
+!entrada/_erro/.gitkeep
+saida/*
+!saida/.gitkeep
+cache/
+logs/
+tests/_amostras/

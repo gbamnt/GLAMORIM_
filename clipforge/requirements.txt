@@ -1,0 +1,4 @@
+faster-whisper>=1.1
+# OpenCV 5.x NÃO traz os arquivos Haar cascade — manter abaixo de 5
+opencv-python-headless<5
+numpy
